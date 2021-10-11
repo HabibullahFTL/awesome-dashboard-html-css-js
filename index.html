@@ -92,149 +92,223 @@
             </label>
           </div>
           <div class="user-profile">
-            <img src="profile_img.jpg" alt="Habibullah Bahar" />
+            <img src="images/profile_img.jpg" alt="Habibullah Bahar" />
           </div>
         </div>
 
-        <!-- cards -->
-        <div class="cardBox">
-          <div class="card">
-            <div>
-              <div class="number">1,400</div>
-              <div class="cardTitle">Total View</div>
+        <div class="content-container">
+          <!-- cards -->
+          <div class="cardBox">
+            <div class="card">
+              <div>
+                <div class="number">1,400</div>
+                <div class="cardTitle">Total View</div>
+              </div>
+              <div class="icon">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
             </div>
-            <div class="icon">
-              <ion-icon name="eye-outline"></ion-icon>
+            <div class="card">
+              <div>
+                <div class="number">68</div>
+                <div class="cardTitle">Comments</div>
+              </div>
+              <div class="icon">
+                <ion-icon name="chatbubbles-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="card">
+              <div>
+                <div class="number">986</div>
+                <div class="cardTitle">Sales Count</div>
+              </div>
+              <div class="icon">
+                <ion-icon name="cart-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="card">
+              <div>
+                <div class="number">$84,154</div>
+                <div class="cardTitle">Total Earnings</div>
+              </div>
+              <div class="icon">
+                <ion-icon name="cash-outline"></ion-icon>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <div>
-              <div class="number">68</div>
-              <div class="cardTitle">Comments</div>
-            </div>
-            <div class="icon">
-              <ion-icon name="chatbubbles-outline"></ion-icon>
-            </div>
-          </div>
-          <div class="card">
-            <div>
-              <div class="number">986</div>
-              <div class="cardTitle">Sales Count</div>
-            </div>
-            <div class="icon">
-              <ion-icon name="cart-outline"></ion-icon>
-            </div>
-          </div>
-          <div class="card">
-            <div>
-              <div class="number">$84,154</div>
-              <div class="cardTitle">Total Earnings</div>
-            </div>
-            <div class="icon">
-              <ion-icon name="cash-outline"></ion-icon>
-            </div>
-          </div>
-        </div>
 
-        <!-- order list  -->
-        <div class="details">
-          <div class="orderList">
-            <div class="orderListHeader">
-              <h2>Recent Orders</h2>
-              <a href="#" class="btn">View All</a>
+          <div class="details">
+            <!-- order list  -->
+            <div class="orderList">
+              <div class="listHeader">
+                <h2>Recent Orders</h2>
+                <a href="#" class="btn">View All</a>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Payment</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tboady>
+                  <tr>
+                    <td>Laptop</td>
+                    <td>$1,400</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status delivered">Delivered</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Mobile</td>
+                    <td>$450</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status inprogress">In-Progress</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Desktop</td>
+                    <td>$900</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status returned">Returned</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Table</td>
+                    <td>$200</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status delivered">Delivered</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Laptop</td>
+                    <td>$1,570</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status inprogress">In-Progress</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Smart TV</td>
+                    <td>$1,400</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status returned">Returned</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Mobile</td>
+                    <td>$550</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status delivered">Delivered</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>I-Phone</td>
+                    <td>$1,100</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status delivered">Delivered</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Desktop</td>
+                    <td>$1,90</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status pending">Pending</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Laptop</td>
+                    <td>$1,250</td>
+                    <td>Paid</td>
+                    <td>
+                      <span class="status delivered">Delivered</span>
+                    </td>
+                  </tr>
+                </tboady>
+              </table>
             </div>
-            <table>
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Price</th>
-                  <th>Payment</th>
-                  <th>Status</th>
-                </tr>
-              </thead>
-              <tboady>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status delivered">Delivered</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status inprogress">In-Progress</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status returned">Returned</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status delivered">Delivered</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status inprogress">In-Progress</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status returned">Returned</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status delivered">Delivered</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status delivered">Delivered</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status pending">Pending</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Laptop</td>
-                  <td>$1,400</td>
-                  <td>Paid</td>
-                  <td>
-                    <span class="status delivered">Delivered</span>
-                  </td>
-                </tr>
-              </tboady>
-            </table>
+
+            <div class="customerList">
+              <div class="listHeader">
+                <h2>Recent Customers</h2>
+                <a href="#" class="btn">View All</a>
+              </div>
+              <div class="customers">
+                <div class="singleCustomer">
+                  <div class="imgBox">
+                    <img src="images/raihan.png" alt="" />
+                  </div>
+                  <div class="customerDetails">
+                    <h4>Fahim Raihan</h4>
+                    <span>Bangladesh</span>
+                  </div>
+                </div>
+                <div class="singleCustomer">
+                  <div class="imgBox">
+                    <img src="images/akib.png" alt="" />
+                  </div>
+                  <div class="customerDetails">
+                    <h4>Akib</h4>
+                    <span>Bangladesh</span>
+                  </div>
+                </div>
+                <div class="singleCustomer">
+                  <div class="imgBox">
+                    <img src="images/profile_img.jpg" alt="" />
+                  </div>
+                  <div class="customerDetails">
+                    <h4>Habibullah Bahar</h4>
+                    <span>Bangladesh</span>
+                  </div>
+                </div>
+                <div class="singleCustomer">
+                  <div class="imgBox">
+                    <img src="images/sakib.png" alt="" />
+                  </div>
+                  <div class="customerDetails">
+                    <h4>Sakib Khan</h4>
+                    <span>Bangladesh</span>
+                  </div>
+                </div>
+                <div class="singleCustomer">
+                  <div class="imgBox">
+                    <img src="images/hero.png" alt="" />
+                  </div>
+                  <div class="customerDetails">
+                    <h4>Mr. Hero</h4>
+                    <span>India</span>
+                  </div>
+                </div>
+                <div class="singleCustomer">
+                  <div class="imgBox">
+                    <img src="images/bappi.png" alt="" />
+                  </div>
+                  <div class="customerDetails">
+                    <h4>Bappy Chawdhori</h4>
+                    <span>Bangladesh</span>
+                  </div>
+                </div>
+                <div class="singleCustomer">
+                  <div class="imgBox">
+                    <img src="images/unknown.png" alt="" />
+                  </div>
+                  <div class="customerDetails">
+                    <h4>Mr. Unknown</h4>
+                    <span>India</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
