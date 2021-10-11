@@ -444,8 +444,7 @@ main.active .topbar {
         z-index: 51;
         color: var(--white);
     }
-}
-
-/* smaller  */
-@media only screen and (max-width: 639px) {
+    .topbar .search-box {
+        width: 180px;
+    }
 }
